@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:background="@color/editTextbg">
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:gravity="center">-->
+
+<!--                <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                    android:id="@+id/showAdminProfileImage"-->
+<!--                    android:layout_width="100dp"-->
+<!--                    android:layout_height="100dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:src="@drawable/ic_person"/>-->
+
+<!--            </LinearLayout>-->
+            
+            
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:text="Name:"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:fontFamily="open sans', arial, sans-serif"/>
+
+
+            <TextView
+                android:id="@+id/showAdminName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="60dp"
+                android:layout_toRightOf="@id/name"
+                android:gravity="right"
+                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:text="Admin Name"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:fontFamily="open sans', arial, sans-serif" />
+
+
+            <TextView
+                android:id="@+id/phone_admin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:text="Phone:"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:fontFamily="open sans', arial, sans-serif" />
+
+            <TextView
+                android:id="@+id/showAdminNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/showAdminName"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="60dp"
+                android:layout_toRightOf="@+id/phone_admin"
+                android:gravity="right"
+                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:text="Admin Phone Number"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:fontFamily="open sans', arial, sans-serif" />
+
+
+            <TextView
+                android:id="@+id/Email_admin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phone_admin"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:text="Email:"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:fontFamily="open sans', arial, sans-serif" />
+
+            <TextView
+                android:id="@+id/showAdminEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/showAdminNumber"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="60dp"
+                android:layout_toRightOf="@+id/Email_admin"
+                android:gravity="right"
+                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:text="Admin Email"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:fontFamily="open sans', arial, sans-serif" />
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

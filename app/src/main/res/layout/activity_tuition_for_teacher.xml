@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".TuitionForTeacher">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tuition"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="40dp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <EditText
+                    android:id="@+id/schoolNameTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="@string/schoolName"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="25dp"
+                    />
+
+                <EditText
+                    android:id="@+id/classNameTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="@string/className"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <EditText
+                    android:id="@+id/numbersOfStudentsTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="@string/numbersOfStudents"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <EditText
+                    android:id="@+id/studentCityTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="@string/city"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <EditText
+                    android:id="@+id/locationTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="@string/location"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <Spinner
+                    android:id="@+id/teacherRoleForTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:entries="@array/gender"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edit_text_bg"
+                    android:focusableInTouchMode="true"
+                    android:textSize="25sp"/>
+
+                <Button
+                    android:id="@+id/saveDataTuitionTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/saveTuition"
+                    android:textColor="@color/white"
+                    android:background="@drawable/signup_btn"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+
+</RelativeLayout>

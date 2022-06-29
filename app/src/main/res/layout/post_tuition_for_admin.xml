@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:background="@color/editTextbg">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:id="@+id/school"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="School:"
+
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        app:fontFamily="open sans', arial, sans-serif"/>
+
+
+                    <TextView
+                        android:id="@+id/showAdminTuitionSchoolName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="5dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_toRightOf="@id/school"
+
+                        android:gravity="right"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="School Name"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        app:fontFamily="open sans', arial, sans-serif" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/layoutGender">
+                    <TextView
+                        android:id="@+id/gender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="Gender:"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        app:fontFamily="open sans', arial, sans-serif"/>
+
+
+                    <TextView
+                        android:id="@+id/showAdminTuitionGender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="5dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_toRightOf="@id/gender"
+                        android:gravity="right"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="Gender"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        app:fontFamily="open sans', arial, sans-serif" />
+
+                </RelativeLayout>
+
+
+
+
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/classs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="Class:"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        app:fontFamily="open sans', arial, sans-serif" />
+
+                    <TextView
+                        android:id="@+id/showAdminTuitionClassName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="5dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_toRightOf="@+id/classs"
+                        android:gravity="right"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="Class"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        app:fontFamily="open sans', arial, sans-serif" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/studentNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="Number Of Students:"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        app:fontFamily="open sans', arial, sans-serif" />
+
+                    <TextView
+                        android:id="@+id/showAdminTuitionStudentNumbers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="5dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_toRightOf="@+id/studentNumber"
+                        android:gravity="right"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="Number of Students"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        app:fontFamily="open sans', arial, sans-serif" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/city"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="City:"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        app:fontFamily="open sans', arial, sans-serif" />
+
+                    <TextView
+                        android:id="@+id/showAdminTuitionCity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="5dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_toRightOf="@+id/city"
+                        android:gravity="right"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="Tuition City"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        app:fontFamily="open sans', arial, sans-serif" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/locationS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="Area:"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        app:fontFamily="open sans', arial, sans-serif"/>
+                    <TextView
+                        android:id="@+id/showAdminTuitionLocation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="5dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_toRightOf="@+id/locationS"
+                        android:gravity="right"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="Tuition Location"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        app:fontFamily="open sans', arial, sans-serif"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="Phone:"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        app:fontFamily="open sans', arial, sans-serif"/>
+                    <TextView
+                        android:id="@+id/showAdminTuitionPhone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="5dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_toRightOf="@+id/phone"
+                        android:gravity="right"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="Tuition Number"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        app:fontFamily="open sans', arial, sans-serif"/>
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

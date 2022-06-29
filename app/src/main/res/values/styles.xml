@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--Ali style begin here-->
+
+    <style name="MyToolbar">
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:background">#00b8d4</item>
+        <item name="android:elevation" tools:targetApi="lollipop">4dp</item>
+        <!--        <item name="navigationIcon">@drawable/ic_back_arrow</item>-->
+    </style>
+    <!-- toolbar popup theme -->
+    <style name="MyToolbarCustomPopupStyle"
+        parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">#151925</item>
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">-4dp</item>
+    </style>
+
+    <!--    toolbar styling according to material guidlines-->
+    <style name="ToolbarTextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:shadowColor">?colorAccent</item>
+    </style>
+
+    <style name="ToolbarTextAppearance.Title">
+        <item name="android:textSize">16sp</item>
+        <!--        <item name="android:fontFamily">@font/roboto_bold</item>-->
+    </style>
+
+    <style name="ToolbarTextAppearance.Subtitle">
+        <item name="android:textSize">12sp</item>
+        <!--        <item name="android:fontFamily">@font/roboto_bold</item>-->
+    </style>
+
+</resources>

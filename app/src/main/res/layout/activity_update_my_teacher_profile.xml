@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".UpdateMyTeacherProfile">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/updateTeacherEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profileUpdate"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal" />
+
+                <EditText
+                    android:id="@+id/updateTeacherName"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="@string/name"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="25dp"
+                    />
+                <EditText
+                    android:id="@+id/updateTeacherNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="@string/contactNumber"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="15dp"
+                    />
+                <EditText
+                    android:id="@+id/updatePreferableTeachingArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="@string/preferableTeachingArea"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <EditText
+                    android:id="@+id/updateTeacherAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="@string/address"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="15dp"
+                    />
+
+
+
+                <EditText
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:hint="@string/description"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:inputType="textMultiLine"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/edit_text_bg"
+                    android:gravity="center" />
+
+
+                <Button
+                    android:id="@+id/saveUpdateTeacherData"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/registrations"
+                    android:textColor="@color/white"
+                    android:background="@drawable/signup_btn"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

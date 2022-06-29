@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1c2131</color>
+    <color name="colorPrimaryDark">#151925</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="background">#1c2131</color>
+    <color name="editTextbg">#151925</color>
+    <color name="blueBtnColor">#2a57ff</color>
+    <color name="pinkBtnColor">#e61057</color>
+
+    <color name="editTextBg">#151925</color>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "730253103004",
+    "firebase_url": "https://muallim-39f4a.firebaseio.com",
+    "project_id": "muallim-39f4a",
+    "storage_bucket": "muallim-39f4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730253103004:android:ddcc64d0d7293951c1c259",
+        "android_client_info": {
+          "package_name": "com.example.muallim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730253103004-0ebbsj4l94fhvr9iu016u3s3tc3d0ung.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.muallim",
+            "certificate_hash": "f851b15fd5d2e002744a6b00080c2857f6837794"
+          }
+        },
+        {
+          "client_id": "730253103004-gu5daq1euv96qqlmkp2t3klq0kk2j3j8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSFWLT2U2l8BXTCJmLCMNAslOv6yUrXK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730253103004-gu5daq1euv96qqlmkp2t3klq0kk2j3j8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
